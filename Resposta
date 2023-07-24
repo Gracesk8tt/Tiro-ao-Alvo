@@ -1,0 +1,21 @@
+function solucao(disparos) {
+	 let disparosAcimaDe70 = 0;
+
+  for (let i = 0; i < disparos.length; i++) {
+    if (disparos[i] > 70) {
+      disparosAcimaDe70++;
+    }
+  }
+
+  if (disparosAcimaDe70 >= 3) {
+    console.log(disparosAcimaDe70);
+  } else {
+    console.log('ELIMINADO');
+  }
+}
+
+
+
+function processData(input) {
+    solucao(input.split(' ').map(x => Number(x)).filter(x => x));
+} 
