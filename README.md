@@ -25,3 +25,4 @@ Sample Input 1
 Sample Output 1
 
 4
+![image](https://github.com/Gracesk8tt/Tiro-ao-Alvo/assets/114750084/6c9be38e-4259-482e-8a10-ef6ca7d4b6f0)
